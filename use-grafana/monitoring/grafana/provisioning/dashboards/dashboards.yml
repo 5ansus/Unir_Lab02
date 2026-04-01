@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: spring-boot-metrics
+    orgId: 1
+    folder: SpringBoot
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    options:
+      path: /var/lib/grafana/dashboards
